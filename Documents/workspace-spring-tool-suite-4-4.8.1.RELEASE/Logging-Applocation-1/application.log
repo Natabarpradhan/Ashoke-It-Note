@@ -1,0 +1,80 @@
+2024-03-13T00:23:35.021+05:30  INFO 14548 --- [Logging-Applocation-1] [main] I.LoggingApplocation1Application         : Starting LoggingApplocation1Application using Java 17.0.9 with PID 14548 (C:\Users\NATABAR PRADHAN\Documents\workspace-spring-tool-suite-4-4.8.1.RELEASE\Logging-Applocation-1\target\classes started by NATABAR PRADHAN in C:\Users\NATABAR PRADHAN\Documents\workspace-spring-tool-suite-4-4.8.1.RELEASE\Logging-Applocation-1)
+2024-03-13T00:23:35.023+05:30  INFO 14548 --- [Logging-Applocation-1] [main] I.LoggingApplocation1Application         : No active profile set, falling back to 1 default profile: "default"
+2024-03-13T00:23:35.583+05:30  INFO 14548 --- [Logging-Applocation-1] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2024-03-13T00:23:35.591+05:30  INFO 14548 --- [Logging-Applocation-1] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-13T00:23:35.591+05:30  INFO 14548 --- [Logging-Applocation-1] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-13T00:23:35.635+05:30  INFO 14548 --- [Logging-Applocation-1] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-13T00:23:35.635+05:30  INFO 14548 --- [Logging-Applocation-1] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 580 ms
+2024-03-13T00:23:35.862+05:30  WARN 14548 --- [Logging-Applocation-1] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-03-13T00:23:35.876+05:30  INFO 14548 --- [Logging-Applocation-1] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-03-13T00:23:35.890+05:30 ERROR 14548 --- [Logging-Applocation-1] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9090 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9090 or configure this application to listen on another port.
+
+2024-03-13T00:23:59.346+05:30  INFO 18736 --- [Logging-Applocation-1] [main] I.LoggingApplocation1Application         : Starting LoggingApplocation1Application using Java 17.0.9 with PID 18736 (C:\Users\NATABAR PRADHAN\Documents\workspace-spring-tool-suite-4-4.8.1.RELEASE\Logging-Applocation-1\target\classes started by NATABAR PRADHAN in C:\Users\NATABAR PRADHAN\Documents\workspace-spring-tool-suite-4-4.8.1.RELEASE\Logging-Applocation-1)
+2024-03-13T00:23:59.348+05:30  INFO 18736 --- [Logging-Applocation-1] [main] I.LoggingApplocation1Application         : No active profile set, falling back to 1 default profile: "default"
+2024-03-13T00:23:59.883+05:30  INFO 18736 --- [Logging-Applocation-1] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2024-03-13T00:23:59.890+05:30  INFO 18736 --- [Logging-Applocation-1] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-13T00:23:59.891+05:30  INFO 18736 --- [Logging-Applocation-1] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-13T00:23:59.938+05:30  INFO 18736 --- [Logging-Applocation-1] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-13T00:23:59.938+05:30  INFO 18736 --- [Logging-Applocation-1] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 557 ms
+2024-03-13T00:24:00.183+05:30  INFO 18736 --- [Logging-Applocation-1] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path ''
+2024-03-13T00:24:00.189+05:30  INFO 18736 --- [Logging-Applocation-1] [main] I.LoggingApplocation1Application         : Started LoggingApplocation1Application in 1.118 seconds (process running for 1.516)
+2024-03-13T00:24:44.900+05:30  INFO 18736 --- [Logging-Applocation-1] [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-13T00:24:44.901+05:30  INFO 18736 --- [Logging-Applocation-1] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-13T00:24:44.901+05:30  INFO 18736 --- [Logging-Applocation-1] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-03-13T00:24:44.919+05:30  INFO 18736 --- [Logging-Applocation-1] [http-nio-9090-exec-1] Intellect.Service.FlifCartService        : returnMsgToClient before method
+2024-03-13T00:24:44.919+05:30  INFO 18736 --- [Logging-Applocation-1] [http-nio-9090-exec-1] Intellect.Service.FlifCartService        : returnMsgToClient after method
+2024-03-13T00:30:29.803+05:30  INFO 11312 --- [Logging-Applocation-1] [main] I.LoggingApplocation1Application         : Starting LoggingApplocation1Application using Java 17.0.9 with PID 11312 (C:\Users\NATABAR PRADHAN\Documents\workspace-spring-tool-suite-4-4.8.1.RELEASE\Logging-Applocation-1\target\classes started by NATABAR PRADHAN in C:\Users\NATABAR PRADHAN\Documents\workspace-spring-tool-suite-4-4.8.1.RELEASE\Logging-Applocation-1)
+2024-03-13T00:30:29.805+05:30  INFO 11312 --- [Logging-Applocation-1] [main] I.LoggingApplocation1Application         : No active profile set, falling back to 1 default profile: "default"
+2024-03-13T00:30:30.341+05:30  INFO 11312 --- [Logging-Applocation-1] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2024-03-13T00:30:30.348+05:30  INFO 11312 --- [Logging-Applocation-1] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-13T00:30:30.349+05:30  INFO 11312 --- [Logging-Applocation-1] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-13T00:30:30.390+05:30  INFO 11312 --- [Logging-Applocation-1] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-13T00:30:30.390+05:30  INFO 11312 --- [Logging-Applocation-1] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 554 ms
+2024-03-13T00:30:30.605+05:30  WARN 11312 --- [Logging-Applocation-1] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-03-13T00:30:30.614+05:30  INFO 11312 --- [Logging-Applocation-1] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-03-13T00:30:30.628+05:30 ERROR 11312 --- [Logging-Applocation-1] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9090 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9090 or configure this application to listen on another port.
+
+2024-03-13T00:30:35.714+05:30  INFO 18736 --- [Logging-Applocation-1] [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-03-13T00:30:46.898+05:30  INFO 2140 --- [Logging-Applocation-1] [main] I.LoggingApplocation1Application         : Starting LoggingApplocation1Application using Java 17.0.9 with PID 2140 (C:\Users\NATABAR PRADHAN\Documents\workspace-spring-tool-suite-4-4.8.1.RELEASE\Logging-Applocation-1\target\classes started by NATABAR PRADHAN in C:\Users\NATABAR PRADHAN\Documents\workspace-spring-tool-suite-4-4.8.1.RELEASE\Logging-Applocation-1)
+2024-03-13T00:30:46.901+05:30  INFO 2140 --- [Logging-Applocation-1] [main] I.LoggingApplocation1Application         : No active profile set, falling back to 1 default profile: "default"
+2024-03-13T00:30:47.438+05:30  INFO 2140 --- [Logging-Applocation-1] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2024-03-13T00:30:47.446+05:30  INFO 2140 --- [Logging-Applocation-1] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-13T00:30:47.446+05:30  INFO 2140 --- [Logging-Applocation-1] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-13T00:30:47.484+05:30  INFO 2140 --- [Logging-Applocation-1] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-13T00:30:47.484+05:30  INFO 2140 --- [Logging-Applocation-1] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 550 ms
+2024-03-13T00:30:47.713+05:30  INFO 2140 --- [Logging-Applocation-1] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path ''
+2024-03-13T00:30:47.719+05:30  INFO 2140 --- [Logging-Applocation-1] [main] I.LoggingApplocation1Application         : Started LoggingApplocation1Application in 1.094 seconds (process running for 1.495)
+2024-03-13T00:31:14.366+05:30  INFO 2140 --- [Logging-Applocation-1] [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-13T00:31:14.366+05:30  INFO 2140 --- [Logging-Applocation-1] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-13T00:31:14.366+05:30  INFO 2140 --- [Logging-Applocation-1] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-03-13T00:31:14.395+05:30  INFO 2140 --- [Logging-Applocation-1] [http-nio-9090-exec-1] Intellect.Service.FlifCartService        : returnMsgToClient before method
+2024-03-13T00:31:14.396+05:30  INFO 2140 --- [Logging-Applocation-1] [http-nio-9090-exec-1] Intellect.Service.FlifCartService        : returnMsgToClient after method
+2024-03-13T00:33:15.621+05:30  INFO 2140 --- [Logging-Applocation-1] [RMI TCP Connection(5)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
